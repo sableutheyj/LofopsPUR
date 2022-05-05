@@ -31,8 +31,6 @@ jobs:
     - name: Install dependencies
       run: |
         cd pyscriptjs
-        npm install
-    - name: Build pyscript
       run: |
         cd pyscriptjs
         npm run build
